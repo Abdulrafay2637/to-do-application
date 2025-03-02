@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Expense tracker</h1>
+    <div class="input-section">
+      <label for="Category-select">Category</label>
+      <input type="text">
+      <label for="amount-input">Amount:</label>
+      <input type="number" id="amount-input">
+      <button id="add-btn">Add</button>
+    </div>
+    <div class="Expense-list">
+      <table>
+        <thead>
+          <tr>
+            <th>Category</th>
+            <th>amount</th>
+            <th>delete</th>
+          </tr>
+        </thead>
+        <tbody id="expense-table-body">
+
+        </tbody>
+        <tfoot>
+          <tr>
+            <td>Total</td>
+            <td id="total-amount"></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+
+ 
+
+   
+    
+    <script src="app.js"></script>
+</body>
+</html>
